@@ -40,6 +40,6 @@ The library automation add path system to directory ```app/chromium```.
 For publish package in Bintray use in gradle ```publishLibBintray```.
 In this command run be all tests unit, integration and functional.
 
-#### Include licenses
+## Include licenses
 To your project must be include licenses about dependencies:
 chromium (cef), gluegen and jogl.

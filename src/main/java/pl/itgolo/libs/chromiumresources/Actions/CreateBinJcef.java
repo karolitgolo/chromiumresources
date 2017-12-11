@@ -46,7 +46,7 @@ public class CreateBinJcef {
      */
     String[] cefCommonFiles = new String[]{"cef.pak", "cef_100_percent.pak", "cef_200_percent.pak",
             "cef_extensions.pak", "d3dcompiler_43.dll", "devtools_resources.pak", "icudtl.dat",
-            "natives_blob.bin"};
+            "natives_blob.bin", "jawt.dll"};
 
     /**
      * The Cef architecture files.
