@@ -7,18 +7,18 @@ plugins {
 
 apply from: 'gradle/extend.gradle'
 
-
 configurations{
     requireRunJar
 }
 repositories {
     jcenter()
     mavenCentral()
+
 }
 
 dependencies {
+    requireRunJar group: 'org.jogamp.gluegen', name: 'gluegen-rt-main', version: '2.3.2'
+    requireRunJar group: 'org.jogamp.jogl', name: 'jogl-all-main', version: '2.3.2'
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile configurations.requireRunJar
 }
-
-apply from: 'gradle/update.gradle'
